@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DITY: Healthy snack and meal recipes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner" id="banner">
+        <div class="logo" id="logo">
+            <img src="/Users/lizzyjoo/sign-up-form/images/logo.png">
+        </div>
+        <img id="food" src="/Users/lizzyjoo/sign-up-form/images/jennifer-latuperisa-andresen-247JU9v0S8A-unsplash.jpg">
+    </div>
+    <div class="sign_up" id="sign_up">
+        <div class="header" id="header">
+            <p>Discover a variety of simple, creative, and delicious recipes for your healthy lifestyle! <br />Whether you're looking to boost your energy,
+                manage your weight, or simply enjoy wholesome food, <br />our curated recipes will inspire and guide you every step of the way.<br />
+            </p>
+            <p>Sign up today and take a peek!</p>
+        </div>
+        <form action="example.com/path" method="post">
+            <h2>Let's do this!</h2>
+            <div class="row">
+                <div>
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" name="first_name">
+                </div>
+                <div>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name" name="last_name">
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="user_email">Email</label>
+                    <input type="email" id="user_email" name="email" placeholder="you@example.com" >
+                </div>
+                <div>
+                    <label for="phone_number">Phone Number</label>
+                    <input type="tel" id="phone_number" name="phone_number">
+                </div>     
+            </div>
+            <div class="row">
+                <div>
+                    <label for="user_password">Password</label>
+                    <input type="password" id="user_password" name="password" onkeyup='check();'>
+                </div>
+                <div>
+                    <label for="confirm_password">Confirm Password</label>
+                    <input type="password" id="confirm_password" name="confirm_password" onkeyup='check();'>
+                </div>  
+                  
+            </div>  
+            <span id="message"></span>   
+            </form>
+        <div class="account">
+            <button id="create">Create Account</button>
+            <div class="login">Already have an account? <a href="url">Log in</a></div>
+        </div>
+    </div>
+    
+    
+</body>
+<script src="script.js"></script>
+</html>
